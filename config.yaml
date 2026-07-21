@@ -1,0 +1,38 @@
+# Hveðrungr System Configuration
+# Honeypot prototype for cyber threat analysis
+
+# Listening address. 0.0.0.0 = listen on all network interfaces.
+# For local testing, 127.0.0.1 is preferred.
+bind_host: "0.0.0.0"
+
+# --- Narfa fjöturr Module (Tarpitting) ---
+narfa:
+  enabled: true
+  port: 2222                # alternative SSH port, does not require root
+  banner: "SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u1"
+  byte_delay_seconds: 1.0   # delay between banner bytes (seconds)
+  hold_seconds: 60          # duration to hold the connection after the banner
+
+# --- Lokanet Module (Honeytokens, fake shell) ---
+lokanet:
+  enabled: true
+  port: 2323                # alternative Telnet port
+  hostname: "srv-fin-01"    # fake host name displayed in the prompt
+  username: "admin"         # allowed username (for greater realism)
+  # any password is treated as success — the trap is designed to let users in
+
+# --- Lokasenna Module (Alerting + MITRE-mapping) ---
+lokasenna:
+  enabled: true
+  # Webhook for notifications in Slack or Microsoft Teams.
+  # If empty — notifications go to console and log only.
+  webhook_url: ""
+  webhook_type: "slack"     # slack | teams | none
+  alert_cooldown_seconds: 5 # anti-flood: identical events from the same IP
+
+# --- Logging ---
+logging:
+  log_dir: "logs"
+  json_log: "events.jsonl"
+  text_log: "hvedrungr.log"
+  level: "INFO"             # DEBUG | INFO | WARNING | ERROR

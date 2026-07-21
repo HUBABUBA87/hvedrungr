@@ -1,0 +1,48 @@
+============================================================
+Hveðrungr / Lokasenna — Threat Intelligence Report
+============================================================
+Total events recorded : 313
+Unique source IPs     : 1
+
+Top sources:
+  192.168.56.20            313 events
+
+Tactics distribution (MITRE ATT&CK):
+  Reconnaissance            243
+  Credential Access         52
+  Discovery                 15
+  Impact                    2
+  Command and Control       1
+
+Techniques (top):
+  T1595.001  243
+  T1110      50
+  T1083      10
+  T1033      3
+  T1003.008  2
+  T1552.003  2
+  T1078      2
+  T1105      1
+
+Honeytoken usage detected:
+  2026-07-21T14:14:14+00:00  192.168.56.20  -> db_password
+  2026-07-21T14:15:19+00:00  192.168.56.20  -> db_password
+
+Auth attempts per IP:
+  192.168.56.20            50
+
+Top attacker commands:
+  cat             4
+  whoami          2
+  ls              2
+  From:           1
+  To:             1
+  Call-ID:        1
+  CSeq:           1
+  Max-Forwards:   1
+  Content-Length: 1
+  Contact:        1
+  Accept:         1
+  wget            1
+  exit            1
+============================================================

