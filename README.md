@@ -88,6 +88,7 @@ lokasenna:
 
 ## Project Structure
 
+```text
 hvedrungr/
 ├── main.py                  entry point
 ├── config.yaml              configuration
