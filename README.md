@@ -12,10 +12,14 @@ Hveðrungr is a medium-interaction honeypot consisting of three interconnected m
 | **Lokanet** | Fake shell on TCP port 2323 | Simulated file system featuring honeytokens (canary passwords, keys, API tokens) |
 | **Lokasenna** | Event analyzer + webhook notifier | Maps attacker actions to MITRE ATT&CK, sends alerts to Slack / Teams |
 
-Module names reference Norse mythology: Hveðrungr is an alternate name for Loki; Narfa fjöturr refers to Narfi's fetters; Lokanet is Loki's net; Lokasenna is Loki's flyting.
+Module names reference Norse mythology: 
+* Hveðrungr is an alternate name for Loki; 
+* Narfa fjöturr refers to Narfi's fetters; 
+* Lokanet is Loki's net; Lokasenna is Loki's flyting.
 
 ## Installation
 
+```text
 git clone <repo>
 cd hvedrungr
 python -m venv .venv
@@ -24,12 +28,13 @@ source .venv/bin/activate         # Linux/macOS
 pip install -r requirements.txt
 
 Requires **Python 3.9+**. No external dependencies other than PyYAML and requests.
-
+```
 ## Running
 
+```text
 python main.py                    # picks up config.yaml from the current directory
 python main.py path/to/config.yaml # alternative configuration path
-
+```
 To stop — press Ctrl+C.
 
 Logs will appear in the `logs/` directory:
@@ -40,10 +45,14 @@ Logs will appear in the `logs/` directory:
 
 In another terminal:
 
-# 1. Test Narfa fjöturr (slow banner delivery)
-nc 127.0.0.1 2222
+### 1. Test Narfa fjöturr (slow banner delivery)
 
-# 2. Test Lokanet shell
+```text
+nc 127.0.0.1 2222
+```
+### 2. Test Lokanet shell
+
+```text
 nc 127.0.0.1 2323
 # login: admin
 # password: any
@@ -51,14 +60,18 @@ nc 127.0.0.1 2323
 # admin@srv-fin-01:/home/admin$ cat /etc/passwd
 # admin@srv-fin-01:/home/admin$ cat /root/.bash_history
 # admin@srv-fin-01:/home/admin$ exit
+```
+### 3. Lokasenna analyzer report
 
-# 3. Lokasenna analyzer report
+```text
 python -m lokasenna.analyzer logs/events.jsonl
+```
 
 ## Configuration Parameters
 
 File `config.yaml`:
 
+```text
 bind_host: "0.0.0.0"                # 127.0.0.1 for local tests
 
 narfa:
@@ -79,7 +92,7 @@ lokasenna:
   webhook_url: ""                  # empty = output to console/log only
   webhook_type: "slack"            # slack | teams | none
   alert_cooldown_seconds: 5
-
+```
 ## Slack / Teams Integration
 
 1. In Slack: Create an Incoming Webhook in your workspace settings and copy the URL.
@@ -109,7 +122,7 @@ hvedrungr/
 │   └── architecture.md      detailed architecture documentation
 └── tests/
     └── test_basic.py        smoke tests
-
+```
 ## Prototype Security
 
 * All servers listen on **non-privileged ports** (>1024), meaning root privileges are not required.
