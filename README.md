@@ -20,7 +20,7 @@ Module names reference Norse mythology:
 ## Installation
 
 ```text
-git clone <repo>
+git clone https://github.com/HUBABUBA87/hvedrungr.git
 cd hvedrungr
 python -m venv .venv
 source .venv/bin/activate         # Linux/macOS
@@ -134,4 +134,4 @@ hvedrungr/
 
 ## License
 
-Developed for academic research and study purposes. Free use for learning and research is permitted.
+This project is open-source and distributed under the MIT License.
