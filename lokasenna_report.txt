@@ -11,7 +11,7 @@ Tactics distribution (MITRE ATT&CK):
   Reconnaissance            243
   Credential Access         52
   Discovery                 15
-  Impact                    2
+  Initial Access            2
   Command and Control       1
 
 Techniques (top):
