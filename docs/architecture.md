@@ -5,7 +5,7 @@ This document describes the internal structure of the prototype: components, dat
 ## 1. Overview
 
 The prototype is built as a set of independent service threads sharing a common core. Architecturally, it represents a classic **three-tier structure**: the event capture layer (sensors), the normalization and logging layer (core), and the alerting and analytics layer (alerting).
-
+```text
             ┌──────────── EXTERNAL NETWORK / Internet ────────────┐
             │                                                     │
             │    nmap, hydra, botnets, manual connections         │
@@ -41,7 +41,7 @@ The prototype is built as a set of independent service threads sharing a common 
 │ (Slack / Teams) │                 │ (post-analytics from JSONl)
 │ via webhook     │                 │                          │
 └─────────────────┘                 └──────────────────────────┘
-
+```
 ## 2. Component Description
 
 ### 2.1. Narfa fjöturr — Tarpitting Module
@@ -100,6 +100,7 @@ The current size of the table is about 25 entries. In commercial operation, it i
 
 ## 3. Data Flows
 
+```text
    event (dict)
         │
         ▼
@@ -110,6 +111,7 @@ The current size of the table is about 25 entries. In commercial operation, it i
         │
         ▼
    webhook.send_alert ──► Slack/Teams (HTTP POST)
+```
 
 All components are connected solely through core function calls — this makes each module autonomous and allows replacing, for example, the log storage backend (with SQLite, Elasticsearch, or Wazuh) without modifying the sensors.
 
