@@ -58,7 +58,7 @@ MAPPING = [
     ("wget",  ("Command and Control", "T1105", "Ingress Tool Transfer")),
     ("curl",  ("Command and Control", "T1105", "Ingress Tool Transfer")),
     # --- Honeytoken trigger ---
-    ("__honeytoken__", ("Impact", "T1078",
+    ("__honeytoken__", ("Initial Access", "T1078",
                         "Valid Accounts: valid accounts usage")),
     # --- Reconnaissance proper ---
     ("__tcp_connect__", ("Reconnaissance", "T1595.001",
