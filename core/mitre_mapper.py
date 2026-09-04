@@ -33,27 +33,27 @@ MAPPING = [
     ("ps",      ("Discovery", "T1057", "Process Discovery")),
     ("ls",      ("Discovery", "T1083", "File and Directory Discovery")),
     ("find",    ("Discovery", "T1083", "File and Directory Discovery")),
-    ("history", ("Discovery", "T1552.003", "Bash History")),
+     # --- Defense Evasion ---
+    ("rm -rf", ("Defense Evasion", "T1070.004", "File Deletion")),
+    ("history -c", ("Defense Evasion", "T1070.003", "Clear Command History")),
     # --- Credential Access ---
     ("cat /etc/passwd", ("Credential Access", "T1003.008",
                          "OS Credential Dumping: /etc/passwd")),
     ("cat /etc/shadow", ("Credential Access", "T1003.008",
                          "OS Credential Dumping: /etc/shadow")),
-    (".bash_history", ("Credential Access", "T1552.003", "Bash History")),
+    (".bash_history", ("Credential Access", "T1552.003", "Unsecured Credentials: Shell History")),
+    ("history", ("Credential Access", "T1552.003", "Unsecured Credentials: Shell History")),
     (".ssh/", ("Credential Access", "T1552.004", "Private Keys")),
+    # --- Persistence / lateral movement hints ---
+    ("crontab", ("Persistence", "T1053.003", "Scheduled Task: Cron")),
+    ("ssh ",  ("Lateral Movement", "T1021.004", "SSH")),
+    ("scp ",  ("Exfiltration", "T1048", "Exfiltration Over Alternative Protocol")),
     # --- Execution ---
     ("bash",  ("Execution", "T1059.004", "Unix Shell")),
     ("sh ",   ("Execution", "T1059.004", "Unix Shell")),
     ("/bin/sh", ("Execution", "T1059.004", "Unix Shell")),
     ("python", ("Execution", "T1059.006", "Python")),
     ("perl",  ("Execution", "T1059", "Command and Scripting Interpreter")),
-    # --- Persistence / lateral movement hints ---
-    ("crontab", ("Persistence", "T1053.003", "Scheduled Task: Cron")),
-    ("ssh ",  ("Lateral Movement", "T1021.004", "SSH")),
-    ("scp ",  ("Exfiltration", "T1048", "Exfiltration Over Alternative Protocol")),
-    # --- Defense Evasion ---
-    ("rm -rf", ("Defense Evasion", "T1070.004", "File Deletion")),
-    ("history -c", ("Defense Evasion", "T1070.003", "Clear Command History")),
     # --- Command and Control / Ingress ---
     ("wget",  ("Command and Control", "T1105", "Ingress Tool Transfer")),
     ("curl",  ("Command and Control", "T1105", "Ingress Tool Transfer")),
