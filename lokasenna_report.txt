@@ -9,8 +9,8 @@ Top sources:
 
 Tactics distribution (MITRE ATT&CK):
   Reconnaissance            243
-  Credential Access         52
-  Discovery                 15
+  Credential Access         54
+  Discovery                 13
   Initial Access            2
   Command and Control       1
 
